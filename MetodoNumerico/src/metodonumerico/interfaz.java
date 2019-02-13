@@ -84,6 +84,7 @@ public class interfaz extends JFrame implements ActionListener{
         setSize(400,420);
     }
     
+    @Override
       public void actionPerformed(ActionEvent e){
       
           if(e.getSource() == btnAccept){
