@@ -5,6 +5,6 @@ Software para poder resolver lo siguiente:
 - Error relativo Porcentual
 - Error absoluto
 
-Al igual que te da la opcion de como mostrar los resultados mediante:}
+Al igual que te da la opcion de como mostrar los resultados mediante:
 - truncamiento
 - redondeo
