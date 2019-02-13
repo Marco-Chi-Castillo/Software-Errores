@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class operaciones {
     /**
-     * @param dateIndex indice de la opcion del ComboBox
+    * @param dateIndex indice de la opcion del ComboBox
     *@return numeros de decimales a quitar.
     */
     public int selection(int dateIndex){
@@ -49,8 +49,6 @@ public class operaciones {
     public double truncament(double value,int numberOfDecimal){
         String date = String.valueOf(value); //transformamos el double en String.
         int positionOfChar = numberCharacter(date);
-        
-        System.out.println("char: " + positionOfChar);
         date = date.substring(0,(numberOfDecimal+positionOfChar)); 
         return Double.parseDouble(date);  
     }
