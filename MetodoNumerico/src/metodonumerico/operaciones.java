@@ -19,7 +19,7 @@ public class operaciones {
     *  @return error relativo.
     */
     public double relativeError(double valueTrue, double valueAprox){
-        return ((valueTrue - valueAprox)/valueAprox);
+        return ((valueTrue - valueAprox)/valueTrue);
     }
     
     /**
@@ -28,7 +28,7 @@ public class operaciones {
      * @return error relativo porcentual
     */
     public double relativeErrorPercentage(double valueTrue, double valueAprox){
-        return ((valueTrue - valueAprox)/valueAprox)*100;
+        return ((valueTrue - valueAprox)/valueTrue)*100;
     }
     
     /**
